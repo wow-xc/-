@@ -7,4 +7,4 @@ print(a%b)
 a = "abc"
 b = "defg"
 print(a+b)
-print(a*2)
+print(a*3)
