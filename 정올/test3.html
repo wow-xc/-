@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>나의 홈페이지</title>
+    <style>
+        body {
+            background-color: blanchedalmond;
+        }
+        .register{
+            background-color: blue;
+            color:white;
+            font-size: 20px;
+            border-radius: 20px;
+            border-style: none;
+            /* padding-left: 20px;
+            padding-right: 20px;
+            padding-top: 5px;
+            padding-bottom: 5px; */
+            padding: 5px 20px 5px 20px;
+            margin-right: 10px;
+        }
+
+        .login{
+            background-color:gold;
+            border-radius: 10px;
+            border-style: none;
+            color: darkgrey;
+            padding: 3px 10px 3px 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>제목</h1>
+    <p>문단문단문단문단문단문단문단문단문단문단문단문단문단문단문단문단문단문단문단문단문단문단문단문단</p>
+    <button class="register" id="register-button">가입하기</button>
+    <button class="login" id="login-button">로그인</button>
+
+    <script>
+        // javascript
+        // let a = 10 : 변할 수 있음
+        // const b = 10 : 변할 수 없음
+        let a = 10 // 정수형 변수가 선언되서 10으로 초기화 되었다
+        a = 30
+        a = 40
+        console.log(a)
+
+        // string 형
+        let b = '40'
+        
+        // 연산 + - * / %
+        let c = 40
+        let d = 60
+        console.log(c+d)
+        console.log(c-d)
+        console.log(c*d)
+        console.log(c/d)
+        console.log(c%d)
+
+        // 조건문
+        // 함수
+        function hi() {
+            // console.log("hi")
+            alert("hi")
+        }
+        function hi2() {
+            alert("hi2")
+        }
+        
+        let button = document.getElementById("register-button")
+        button.addEventListener("click", hi)
+        let button2 = document.getElementById("login-button")
+        button2.addEventListener("mouseleave", hi2)
+    </script>
+</body>
+</html>
